@@ -1,0 +1,10 @@
+{
+	"servers": {
+		"harmony-docs": {
+			"type": "stdio",
+			"command": "./mcp-servers/harmony-docs/harmony-docs.exe",
+			"args": []
+		}
+	},
+	"inputs": []
+}
