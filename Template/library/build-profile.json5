@@ -1,0 +1,35 @@
+{
+  "apiType": "stageMode",
+  "buildOption": {
+    "externalNativeOptions": {
+      "path": "./src/main/cpp/CMakeLists.txt",
+      "arguments": "-DCMAKE_SKIP_RPATH=TRUE",
+      "abiFilters": [
+        "arm64-v8a",
+      ],
+      "cppFlags": ""
+    },
+  },
+  "buildOptionSet": [
+    {
+      "name": "release",
+      "externalNativeOptions": {
+        "arguments": "-DCMAKE_BUILD_TYPE=Release"
+      },
+    },
+    {
+      "name": "debug",
+      "externalNativeOptions": {
+        "arguments": "-DCMAKE_BUILD_TYPE=Release"
+      },
+    }
+  ],
+  "targets": [
+    {
+      "name": "default"
+    },
+    {
+      "name": "ohosTest"
+    }
+  ]
+}
