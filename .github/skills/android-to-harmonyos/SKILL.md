@@ -4,14 +4,6 @@ description:
   Android 三方库移植到 HarmonyOS (API 12+) 的领域知识库。提供可移植性分析标准、代码迁移模式、
   构建操作规范和故障排查方案。SOP 执行流程由 Agent 负责，本 Skill 只提供知识支撑。
   支持所有类型的 Android 库移植：Java/Kotlin 纯逻辑库、Android UI 组件库、包含 JNI/NDK Native 代码的库。
-  Use when:
-  (1) 分析 Android 库的 HarmonyOS 可移植性（被 planner/analyzer Agent 调用）
-  (2) 查找 Android API → HarmonyOS API 的替换模式（被 migrator Agent 调用）
-  (3) 迁移 JNI/NDK 代码到 NAPI（被 migrator Agent 调用）
-  (4) 迁移 Android View/Compose UI 到 ArkUI（被 migrator Agent 调用）
-  (5) 构建/安装/测试操作规范（被 builder Agent 调用）
-  (6) 常见错误排查（被 builder/migrator Agent 调用）
-  触发关键词：移植、迁移、porting、migration、Android to HarmonyOS、鸿蒙适配、三方库适配
 ---
 
 # Android 三方库移植 HarmonyOS — 知识库
